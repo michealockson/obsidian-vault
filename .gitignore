@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Vector DB / data
+*.db
+*.sqlite
+*.sqlite3
+lancedb/
+*.lance
+
+# Vault content itself — the actual notes stay local/synced, not in git
+raw/
+processed/
+archive/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
